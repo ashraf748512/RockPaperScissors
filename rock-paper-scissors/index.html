@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>RockPaperScissors</title>
+</head>
+<body>
+    <p>Rock Paper Scissors</p>
+    <button id  ="rock" onclick="
+    pickComputerMove()
+     const out2=rockMoves(computerMove)
+    showResult(out2)
+    "> rock</button>
+    <button id="paper" 
+    onclick="
+    pickComputerMove()
+     const out1=paperMoves(computerMove)
+     showResult(out1)
+    "
+    >paper</button>
+    <button id="scissors"
+    onclick="
+    pickComputerMove()
+    const out3=scissorsMoves(computerMove)
+    showResult(out3)
+    "
+    >scissors</button>
+    <p id="result">
+
+    </p>
+
+
+    <button id="reset"> reset-game</button>
+</body>
+<script src="script.js"></script>
+</html>
